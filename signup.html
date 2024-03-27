@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css" />
+</head>
+<body>
+        <div class="container">
+            <button class="back-button"onclick="window.location.href = 'index.html';"> Back </button>
+            <div class="logo">
+            <img src="images/Frame 1.png" alt="Brand Logo">
+            </div>
+            <div class="login-form">
+                <h2>SignUp</h2>
+                <form action="register.php" method="post">
+                    <input type="text" placeholder="Username" name="username" required>
+                    <input type="text" placeholder="Email-address" name="email" required>
+                    <input type="password" placeholder="Password" name="password" required>
+                    <ul>
+                        <li> <p> already have and account?</p></li>
+                        <li> <a onclick="window.location.href = 'login.html';"> LOGIN </a></li>
+                    </ul>
+                    <button type="submit">SignUp</button>
+                </form>
+            </div>
+        </div>
+</body>
+</html>

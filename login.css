@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../ProjectMemora/images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back-button{
+    background-color: transparent;
+    border: transparent;
+    color: #dad8d8;
+    font-size: 12px;
+    float: left;
+    margin: 0;
+}
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 10rem;
+    margin-left: -3.5em;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Playfair+Display',serif;
+    font-size: 24px;
+}
+
+.login-form input[type="text"]{
+    width: 20rem;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-left: 3em;
+    margin-bottom: 10px;
+    padding: 1em 3em;
+    color: #fff;
+}
+.login-form input[type="password"]{
+    width: 20rem;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-left: 3em;
+    margin-bottom: 10px;
+    padding: 1em 3em;
+    color: #fff;
+}
+.login-form input[type="text"]:focus {
+    width: 20rem;
+    background-color: transparent;
+    border: 2px solid #EA5A8E;
+    border-radius: 5px;
+    margin-left: 3em;
+    margin-bottom: 10px;
+    padding: 1em 3em;
+    color: #fff;
+}
+
+.login-form button[type="submit"] {
+    width: 20rem;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-left: 7em;
+    margin-bottom: 10px;
+    padding: 1em 3em;
+    color: #fff;
+    font-size: 12px;
+}
+.login-form button[type="submit"]:hover {
+    background-color: #EA5A8E;
+    border: #EA5A8E;
+    font-size: 12px;
+    cursor: pointer;
+}
+ul li{
+   display: inline-block;
+   text-decoration: none;
+    color: #dad8d8;
+    margin-top: -30px;
+    padding: 5px 50px 0 10px;
+    border: 1px solid transparent;
+    border-radius: 1vh;
+    font-size: 12px;
+    font-family: 'Playfair+Display',serif;
+    transition: all .3s ease-in-out;
+}
+ul li:hover{
+    color: #EA5A8E;
+    cursor: pointer;
+    transition: .4s ease all;
+    font-size: 12px;
+    font-family: 'Playfair+Display',serif;
+}
